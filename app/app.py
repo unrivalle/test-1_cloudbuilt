@@ -27,6 +27,7 @@ def main():
 #
 #     print(return_resp)
 #     return jsonify(return_resp)
+main()
 #
 
 # if __name__ == '__main__':

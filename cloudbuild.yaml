@@ -29,7 +29,7 @@ steps:
   args: ['-c', 'gcloud builds log $BUILD_ID > /myawesomevolume/buildlog.log']
   waitFor: ['deploy-to-cloud-run']
   id: 'fetch-build-log'
-- name: 'bash' #step-5
+- name: 'bash' # step-5
   volumes:
   - name: 'vol1'
     path: '/myawesomevolume'
